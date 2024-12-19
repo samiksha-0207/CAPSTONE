@@ -1,0 +1,277 @@
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #ECF6FE;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #512888;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color:#440A8F0F;
+  display:flex;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  width:100%
+}
+
+nav ul {
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family: 'Familjen Grotesk', sans-serif;
+  color: #381664;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Syne', sans-serif;
+  color: #381664;
+}
+
+/* MAIN VALA SECTION */
+.main h2 {
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  line-height:120px;
+  color: #381664;
+
+}
+
+.main img {
+  max-width: 100%;
+  border:1px solid #381664;
+  border-radius:22px;
+  margin: 10px;
+}
+
+/* SARE PROJECT VALA SECTION */
+.projects {
+  padding: 2rem 1rem;
+  background-color: #ECF6FE;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.p {
+  background: #ECF6FE;
+  max-width: 333px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.p h3 {
+  color:#381664;
+  font-size: 1rem;
+  font-family:'Familjen Grotesk', sans-serif ;
+  font-weight: 400;
+
+}
+
+.p p {
+  color:#381664;
+  font-size: 1rem;
+  font-family:'Familjen Grotesk', sans-serif ;
+  font-weight: 400;
+}
+
+
+
+.p img {
+  border: 1px solid #440A8F;
+  width: 100%;
+  height: auto;
+}
+
+.p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ABOUT VALA SECTION */
+.about {
+  border-bottom: 1px solid #440A8F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(to top, #440A8F0B 4.2%, #ECF6FEB2 70%);
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width:400px;
+}
+.about-content h1{
+  color:#381664;
+  font-family:'Syne', sans-serif ;
+  font-weight:700;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.about-content p {
+  color:#381664;
+  font-family:'Familjen Grotesk', sans-serif ;
+  font-weight:700;
+  font-size: 1rem;
+  text-align: left;
+
+}
+
+.extra {
+  color:#381664;
+  font-family:'Syne', sans-serif ;
+  font-weight:500;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem 4rem;
+  background-color: #ECF6FE;
+  max-width: 100%;
+
+}
+
+.button {
+  background-color:#440A8F;
+  color: #FCFAFF;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
+/* CONTACT VALA SECTION */
+.contact {
+  padding: 2rem 2rem;
+  text-align: center;
+  border:1px solid;
+  gap: 48px;
+}
+.contact h2 {
+  color:#381664;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size:4rem;
+}
+
+.contact img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 1px solid #440A8F;
+}
+
+.contact form {
+  margin: auto;
+}
+
+.numbers {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  margin: auto;
+}
+
+h3 {
+  color:#381664;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size:2rem;
+  text-align: center
+
+}
+
+p {
+  color:#381664;
+  font-family:'Familjen Grotesk', sans-serif ;
+  font-weight:400;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+
+form input {
+  padding:8px 16px;
+  border: 1px solid #440A8F;
+  border-radius: 8px;
+  width:56px ;
+  height:64px;
+  text-align: center;
+
+}
+
+.contact button {
+  background-color: #512888;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 70%;
+}
+
+.contact button:hover {
+  background-color: #7a49b3;
+}
+/* END SECTION FINISH */
+.footer {
+  background-color: #ECF6FE;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-family:'Syne', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color:#381664
+
+}
+
+.back-to-top {
+  font-size: 1rem;
+  font-weight: bold;
+  color:#381664
+
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 1px;
+  }
+}
