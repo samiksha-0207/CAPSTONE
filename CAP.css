@@ -18,15 +18,16 @@ a {
 
 /* Header */
 header {
-  background-color:#440A8F0F;
-  display:flex;
+  background-color: #440A8F0F;
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap for better responsiveness */
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  width:100%
+  width: 100%;
 }
 
 nav ul {
@@ -52,15 +53,14 @@ nav ul {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 120px;
-  line-height:120px;
+  line-height: 120px;
   color: #381664;
-
 }
 
 .main img {
   max-width: 100%;
-  border:1px solid #381664;
-  border-radius:22px;
+  border: 1px solid #381664;
+  border-radius: 22px;
   margin: 10px;
 }
 
@@ -69,7 +69,6 @@ nav ul {
   padding: 2rem 1rem;
   background-color: #ECF6FE;
 }
-
 
 .grid {
   display: flex;
@@ -86,21 +85,18 @@ nav ul {
 }
 
 .p h3 {
-  color:#381664;
+  color: #381664;
   font-size: 1rem;
-  font-family:'Familjen Grotesk', sans-serif ;
+  font-family: 'Familjen Grotesk', sans-serif;
   font-weight: 400;
-
 }
 
 .p p {
-  color:#381664;
+  color: #381664;
   font-size: 1rem;
-  font-family:'Familjen Grotesk', sans-serif ;
+  font-family: 'Familjen Grotesk', sans-serif;
   font-weight: 400;
 }
-
-
 
 .p img {
   border: 1px solid #440A8F;
@@ -126,39 +122,37 @@ nav ul {
 }
 
 .about img {
-  width:400px;
+  width: 400px;
 }
-.about-content h1{
-  color:#381664;
-  font-family:'Syne', sans-serif ;
-  font-weight:700;
+.about-content h1 {
+  color: #381664;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
   font-size: 3rem;
   text-align: left;
 }
 
 .about-content p {
-  color:#381664;
-  font-family:'Familjen Grotesk', sans-serif ;
-  font-weight:700;
+  color: #381664;
+  font-family: 'Familjen Grotesk', sans-serif;
+  font-weight: 700;
   font-size: 1rem;
   text-align: left;
-
 }
 
 .extra {
-  color:#381664;
-  font-family:'Syne', sans-serif ;
-  font-weight:500;
+  color: #381664;
+  font-family: 'Syne', sans-serif;
+  font-weight: 500;
   font-size: 3rem;
   text-align: center;
   padding: 4rem 4rem;
   background-color: #ECF6FE;
   max-width: 100%;
-
 }
 
 .button {
-  background-color:#440A8F;
+  background-color: #440A8F;
   color: #FCFAFF;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -170,19 +164,19 @@ nav ul {
   cursor: pointer;
 }
 
-
 /* CONTACT VALA SECTION */
 .contact {
   padding: 2rem 2rem;
   text-align: center;
-  border:1px solid;
+  border: 1px solid;
   gap: 48px;
 }
+
 .contact h2 {
-  color:#381664;
+  color: #381664;
   font-family: 'Syne', sans-serif;
   font-weight: 700;
-  font-size:4rem;
+  font-size: 4rem;
 }
 
 .contact img {
@@ -203,32 +197,28 @@ nav ul {
 }
 
 h3 {
-  color:#381664;
+  color: #381664;
   font-family: 'Syne', sans-serif;
   font-weight: 700;
-  font-size:2rem;
-  text-align: center
-
+  font-size: 2rem;
+  text-align: center;
 }
 
 p {
-  color:#381664;
-  font-family:'Familjen Grotesk', sans-serif ;
-  font-weight:400;
+  color: #381664;
+  font-family: 'Familjen Grotesk', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   text-align: center;
-
 }
 
-
 form input {
-  padding:8px 16px;
+  padding: 8px 16px;
   border: 1px solid #440A8F;
   border-radius: 8px;
-  width:56px ;
-  height:64px;
+  width: 56px;
+  height: 64px;
   text-align: center;
-
 }
 
 .contact button {
@@ -241,15 +231,22 @@ form input {
   transition: background-color 0.3s ease;
   width: 70%;
 }
-
-.contact button:hover {
-  background-color: #7a49b3;
+.contact .button1 {
+  background-color: #fff;
+  color: #512888;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 70%;
 }
 
-.contact .button {
-  background-color:#ECF6FE;
-  color:#381664;
-
+.contact button:hover {
+  background-color: white;
+}
+.contact button:hover {
+  background-color: #7a49b3;
 }
 /* END SECTION FINISH */
 .footer {
@@ -260,23 +257,104 @@ form input {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer p {
-  font-family:'Syne', sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  color:#381664
-
+  color: #381664;
 }
 
 .back-to-top {
   font-size: 1rem;
   font-weight: bold;
-  color:#381664
-
+  color: #381664;
 }
 
-@media screen and (max-width: 500px) {
-  h2 {
+/* chotu */
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .main h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .about-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .extra {
+    font-size: 2rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact form input {
+    width: 48px;
+    height: 56px;
+  }
+
+  .contact button {
+    width: 80%;
+  }
+
+  .contact .button1 {
+    width: 80%;
+  }
+
+  .footer p {
     font-size: 1rem;
+  }
+}
+/* chotiii screeennnnnnn */
+@media screen and (max-width: 500px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .main h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about img {
+    width: 300px;
+  }
+
+  .extra {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+
+  .contact form input {
+    width: 50px;
+    height: 60px;
+  }
+
+  .contact button {
+    width: 90%;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
   }
 }
