@@ -1,6 +1,5 @@
 
 body {
-  color: #333;
   margin: 0;
   padding: 0;
   background-color: #ECF6FE;
@@ -246,6 +245,12 @@ form input {
 .contact button:hover {
   background-color: #7a49b3;
 }
+
+.contact .button {
+  background-color:#ECF6FE;
+  color:#381664;
+
+}
 /* END SECTION FINISH */
 .footer {
   background-color: #ECF6FE;
@@ -272,6 +277,6 @@ form input {
 
 @media screen and (max-width: 500px) {
   h2 {
-    font-size: 1px;
+    font-size: 1rem;
   }
 }
