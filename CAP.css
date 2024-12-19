@@ -270,6 +270,7 @@ form input {
   font-weight: bold;
   color: #381664;
 }
+<<<<<<< HEAD
 
 /* chotu */
 @media screen and (max-width: 768px) {
@@ -358,3 +359,5 @@ form input {
     font-size: 0.9rem;
   }
 }
+=======
+>>>>>>> 9f77fb595078e2b4da21cf16cc073aee7f7c86ee
